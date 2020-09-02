@@ -1,0 +1,51 @@
+
+<!-- responsive jumbotron because of <meta name="viewport" content="width=device-width, initial-scale=1.0">  --> 
+
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+<!-- Safari will automatically zoom/shink the page's content to fit automatically, unless shrink-to-fit=no is specified.  --> 
+<!-- initial-scale determines the zoom level when the page is first loaded. (So initial-scale = 1.0 would reset the zoom back to 100%). -->
+<title>Bootstrap 4 Responsive Layout Example</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body> 
+
+<!--Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl} for responsive collapsing--> 
+<!--navbar-dark in dark colour  --> 
+<!--bg-dark background colour dark  -->     
+<!--margin that define the space of outside of an element to its next outside element. In other word space between two element  -->  
+<!--padding  that define the space between an element content and its border --> 
+<!--container-fluid will expand or shrink when ever the viewport is resized  --> 
+<!-- navbar-brand for your company, product, or project name. --> 
+<!-- toggle image https://media.geeksforgeeks.org/wp-content/uploads/20190818215532/inbuilt.png --> 
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand mr-3">Tutorial Republic</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Services</a>
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link">Register</a>
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div>
+        </div>
+    </div>    
+</nav> 
+
+</body>
+</html>
